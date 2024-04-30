@@ -1,6 +1,8 @@
 // pages/index.js
 import Head from 'next/head';
-import Quiz from '../app/Quiz';
+import QuizContainer from './QuizContainer';
+import {Footer} from "@/app/Footer";
+import React from "react";
 
 export default function Home() {
   return (
@@ -8,7 +10,10 @@ export default function Home() {
         <Head>
           <title>Quiz App</title>
         </Head>
-        <Quiz />
+          <div className="flex flex-col h-screen justify-between">
+            <QuizContainer />
+            <Footer />
+          </div>
       </div>
   );
 }

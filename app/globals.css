@@ -31,3 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes blink-green {
+  50% { background-color: green; }
+}
+
+@keyframes blink-red {
+  50% { background-color: red; }
+}
+
+.animate-blink-green {
+  animation: blink-green 1s linear;
+}
+
+.animate-blink-red {
+  animation: blink-red 1s linear;
+}

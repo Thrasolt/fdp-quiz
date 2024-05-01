@@ -47,3 +47,13 @@ body {
 .animate-blink-red {
   animation: blink-red 1s linear;
 }
+
+/* Disable focus outlines */
+.btn:focus {
+  outline: none;
+}
+
+/* Reset the background color after interaction */
+.btn:active {
+  background-color: initial;
+}

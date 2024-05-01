@@ -77,13 +77,17 @@ export default function Quiz({ finishQuiz, updateCorrectAnswers, trackAnswer }) 
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                     {question.options?.map((option, index) => (
-                        <button key={index} onClick={() => handleAnswer(option, index)}
-                                className={`bg-gray-300 hover:bg-gray-400 rounded p-2 text-black focus:outline-none transition duration-150 ease-in-out 
-                                ${blink.key === index ? (blink.color === 'green' ? 'animate-blink-green' : 'animate-blink-red') : ''}`}>
+                        <button
+                            key={index}
+                            onClick={() => handleAnswer(option, index)}
+                            className={`bg-gray-300 hover:bg-gray-400 active:bg-gray-500 focus:bg-gray-300 rounded p-2 text-black focus:outline-none transition duration-150 ease-in-out 
+                                ${blink.key === index ? (blink.color === 'green' ? 'animate-blink-green' : 'animate-blink-red') : ''}`}
+                        >
                             {option}
                         </button>
                     ))}
                 </div>
+
             </div>
         </div>
     );

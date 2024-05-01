@@ -17,7 +17,7 @@ export const mustQuestions = [
     },
     {
         id: 21,
-        question: "Wer ist einer der bekanntesten FDP Politikerin in Deutschland?",
+        question: "Wer ist eine der bekanntesten FDP Politikerin in Deutschland?",
         answer: "Marie-Agnes Strack-Zimmermann",
         options: [
             "Marie-Agnes Strack-Zimmermann", "Ursula Kwasny", "Annalena Baerbock", "Michelle Obama"

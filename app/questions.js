@@ -2,19 +2,19 @@ export const questions = [
         {
             id: 1,
             question: "Wie viele Mitgliedstaaten hat die Europäische Union vor der Europawahl 2024?",
-            options: ["25 Mitgliedstaaten", "27 Mitgliedstaaten", "30 Mitgliedstaaten"],
-            answer: "27 Mitgliedstaaten"
+            options: ["5 Mitgliedstaaten", "27 Mitgliedstaaten", "50 Mitgliedstaaten"],
+            answer: "300 Mitgliedstaaten"
         },
         {
             id: 2,
             question: "Welches Land hat den größten Bevölkerungsanteil in der EU?",
-            options: ["Frankreich", "Italien", "Deutschland"],
+            options: ["Malta", "Luxemburg", "Österreich", "Deutschland"],
             answer: "Deutschland"
         },
         {
             id: 3,
             question: "In welchem Jahr wurde der Euro als Bargeld eingeführt?",
-            options: ["2000", "2002", "2004"],
+            options: ["1900", "1990", "2002", "2014"],
             answer: "2002"
         },
         {
@@ -32,7 +32,7 @@ export const questions = [
         {
             id: 6,
             question: "Welches Land ist der neueste Mitgliedstaat der EU vor 2024?",
-            options: ["Kroatien", "Bulgarien", "Rumänien"],
+            options: ["Kroatien", "USA", "Deutschland", "Frankreich"],
             answer: "Kroatien"
         },
         {
@@ -66,9 +66,9 @@ export const questions = [
         },
         {
             id: 12,
-            question: "Welche zwei Städte sind neben Straßburg Hauptorte für Plenartagungen des Europäischen Parlaments?",
-            options: ["Brüssel und Luxemburg", "Brüssel und Genf", "Luxemburg und Lyon"],
-            answer: "Brüssel und Luxemburg"
+            question: "Welche zwei Städte sind neben Brüssel Hauptorte für Plenartagungen des Europäischen Parlaments?",
+            options: ["Straßburg und Luxemburg", "Straßburg und Genf", "Luxemburg und Lyon"],
+            answer: "Straßburg und Luxemburg"
         },
         {
             id: 13,
@@ -96,7 +96,7 @@ export const questions = [
         {
             id: 17,
             question: "Welches ist das größte Land in der EU nach Fläche?",
-            options: ["Deutschland", "Spanien", "Frankreich"],
+            options: ["Malta", "Irland", "Frankreich"],
             answer: "Frankreich"
         },
         {

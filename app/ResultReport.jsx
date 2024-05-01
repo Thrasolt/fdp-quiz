@@ -9,9 +9,9 @@ export const ResultReport = ({ correctAnswersCount, answers }) => {
                 <div className="text-2xl font-bold mb-2 text-gray-900">Quiz Beendet</div>
                 <div className="text-lg mb-3 text-gray-900">Sie haben 6 Fragen beantwortet und {correctAnswersCount} richtig.</div>
                 {correctAnswersCount >= 3 ? (
-                    <div className="text-green-900 font-bold">Glückwunsch! Sie haben das Quiz gewonnen!</div>
+                    <div className="text-green-600 font-bold">Glückwunsch! Sie haben das Quiz gewonnen!</div>
                 ) : (
-                    <div className="text-red-900 font-bold">Sie benötigen mindestens 3 richtige Antworten zum Gewinnen. Versuchen Sie es erneut!</div>
+                    <div className="text-red-600 font-bold">Sie benötigen mindestens 3 richtige Antworten zum Gewinnen. Versuchen Sie es erneut!</div>
                 )}
                 <div className="mt-4">
                     <div className="text-lg font-bold mb-2 text-gray-900">Fragen Übersicht:</div>

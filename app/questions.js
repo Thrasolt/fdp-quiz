@@ -3,7 +3,7 @@ export const questions = [
             id: 1,
             question: "Wie viele Mitgliedstaaten hat die Europäische Union vor der Europawahl 2024?",
             options: ["5 Mitgliedstaaten", "27 Mitgliedstaaten", "50 Mitgliedstaaten"],
-            answer: "300 Mitgliedstaaten"
+            answer: "27 Mitgliedstaaten"
         },
         {
             id: 2,

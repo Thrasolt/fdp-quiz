@@ -33,6 +33,8 @@ export default function Quiz({ finishQuiz, updateCorrectAnswers, trackAnswer }) 
         const isCorrect = option === correctAnswer;
         setSelectedOption(optionKey);
         setQuestionsAnsweredCount(questionsAnsweredCount + 1);
+
+
         if (isCorrect) {
             const newCorrectAnswersCount = correctAnswersCount + 1;
             setCorrectAnswersCount(newCorrectAnswersCount);

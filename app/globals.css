@@ -57,3 +57,7 @@ body {
 .btn:active {
   background-color: initial;
 }
+
+button:focus {
+  outline: none;
+}

@@ -139,11 +139,11 @@ export const questions = [
         id: 22,
         question: "Was passiert, wenn keine Partei eine absolute Mehrheit erreicht?",
         options: [
-            "Es gibt eine Neuwahl",
-            "Es werden Koalitionsverhandlungen geführt",
-            "Der Bundespräsident entscheidet die Regierung",
-            "Die stärkste Partei stellt automatisch den Kanzler"
+            "Neuwahlen",
+            "Koalitionsverhandlungen",
+            "Bundespräsident wird Kanzler",
+            "Stärkste Partei stellt den Kanzler"
         ],
-        answer: "Es werden Koalitionsverhandlungen geführt"
+        answer: "Koalitionsverhandlungen"
     }
 ];

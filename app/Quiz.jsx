@@ -13,6 +13,8 @@ function shuffleArray(array) {
     return array;
 }
 
+const numberOfQuestions = 12;
+
 export default function Quiz({ finishQuiz, updateCorrectAnswers, trackAnswer }) {
     const [questions, setQuestions] = useState([]);
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -23,7 +25,7 @@ export default function Quiz({ finishQuiz, updateCorrectAnswers, trackAnswer }) 
 
     useEffect(() => {
         const shuffledQuestions = shuffleArray([...importedQuestions]);
-        const selectedRegularQuestions = shuffledQuestions.slice(0, 6 - mustQuestions.length);
+        const selectedRegularQuestions = shuffledQuestions.slice(0, numberOfQuestions - mustQuestions.length);
         const combinedQuestions = [...mustQuestions, ...selectedRegularQuestions];
         setQuestions(shuffleArray(combinedQuestions));
     }, []);

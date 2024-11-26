@@ -1,22 +1,54 @@
 export const mustQuestions = [
     {
-        id: 19,
-        question: "Wer ist die Spitzenkandidatin der FDP zur Europawahl?",
-        answer: "Dr. Marie-Agnes Strack-Zimmermann",
+        id: 23,
+        question: "Wer ist der Spitzenkandidatin der FDP zur Bundestagswahl?",
+        answer: "Christian Lindner",
         options: [
-            "Dr. Marie-Agnes Strack-Zimmermann", "Sabine Leutheusser-Schnarrenberger", "Ursual von der Leyen", "Annegret Kramp-Karrenbauer"
+            "Christian Lindner", "Olaf Scholz", "Robert Habeck", "Sahra Wagenknecht"
         ]
     },
     {
-        id: 20,
-        question: "Wer ist die Vorsitzende des Verteidigungsausschuss im Deutschen Bundestag?",
-        answer: "Dr. Marie-Agnes Strack-Zimmermann",
+        id: 24,
+        question: "Welche Partei fordert die Senkung der Einkommensteuer?",
+        answer: "FDP",
         options: [
-            "Dr. Marie-Agnes Strack-Zimmermann", "Angela Merkel", "Heike Troles", "Sahra Wagenknecht"
+            "FDP", "SPD", "Bündnis 90. Die Grünen", "CDU"
         ]
     },
     {
-        id: 21,
+        id: 25,
+        question: "Welche Partei fordert die Senkung der Unternehmenssteuern?",
+        answer: "FDP",
+        options: [
+            "FDP", "SPD", "Bündnis 90. Die Grünen", "CDU"
+        ]
+    },
+    {
+        id: 26,
+        question: "Welche Partei fordert die Abschaffung des Solidaritätszuschlags?",
+        answer: "FDP",
+        options: [
+            "FDP", "SPD", "Bündnis 90. Die Grünen", "CDU"
+        ]
+    },
+    {
+        id: 27,
+        question: "Welche Partei fordert den Bürokratieabbau?",
+        answer: "FDP",
+        options: [
+            "FDP", "SPD", "Bündnis 90. Die Grünen", "CDU"
+        ]
+    },
+    {
+        id: 28,
+        question: "Wer ist der Spitzenkandidat der FDP zur Bundestagswahl?",
+        answer: "Christian Lindner",
+        options: [
+            "Christian Lindner", "Olaf Scholz", "Robert Habeck", "Sahra Wagenknecht"
+        ]
+    },
+    {
+        id: 29,
         question: "Wer ist eine der bekanntesten FDP Politikerin in Deutschland?",
         answer: "Dr. Marie-Agnes Strack-Zimmermann",
         options: [

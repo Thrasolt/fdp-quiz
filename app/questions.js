@@ -1,108 +1,149 @@
 export const questions = [
-        {
-            id: 1,
-            question: "Wie viele Mitgliedstaaten hat die Europäische Union vor der Europawahl 2024?",
-            options: ["5 Mitgliedstaaten", "27 Mitgliedstaaten", "50 Mitgliedstaaten"],
-            answer: "27 Mitgliedstaaten"
-        },
-        {
-            id: 2,
-            question: "Welches Land hat den größten Bevölkerungsanteil in der EU?",
-            options: ["Malta", "Luxemburg", "Österreich", "Deutschland"],
-            answer: "Deutschland"
-        },
-        {
-            id: 3,
-            question: "In welchem Jahr wurde der Euro als Bargeld eingeführt?",
-            options: ["1900", "1990", "2002", "2014"],
-            answer: "2002"
-        },
-        {
-            id: 4,
-            question: "Wie oft wählen die Bürger der EU das Europäische Parlament?",
-            options: ["Alle vier Jahre", "Alle fünf Jahre", "Alle sechs Jahre"],
-            answer: "Alle fünf Jahre"
-        },
-        {
-            id: 5,
-            question: "Welche Stadt ist der Hauptsitz des Europäischen Parlaments?",
-            options: ["Brüssel", "Luxemburg", "Straßburg"],
-            answer: "Straßburg"
-        },
-        {
-            id: 6,
-            question: "Welches Land ist der neueste Mitgliedstaat der EU vor 2024?",
-            options: ["Kroatien", "USA", "Deutschland", "Frankreich"],
-            answer: "Kroatien"
-        },
-        {
-            id: 7,
-            question: "Welche Farbe hat die Flagge der Europäischen Union?",
-            options: ["Rot", "Blau", "Grün"],
-            answer: "Blau"
-        },
-        {
-            id: 8,
-            question: "Wie viele Sterne sind auf der Flagge der EU?",
-            options: ["10 Sterne", "12 Sterne", "15 Sterne"],
-            answer: "12 Sterne"
-        },
-        {
-            id: 9,
-            question: "Welches EU-Land hat die meisten Europaparlamentarier?",
-            options: ["Italien", "Frankreich", "Deutschland"],
-            answer: "Deutschland"
-        },
-        {   id: 10,
-            question: "Wer wählt den Präsidenten der Europäischen Kommission?",
-            options: ["Das Europäische Parlament", "Die Europäische Kommission", "Der Europarat"],
-            answer: "Das Europäische Parlament"
-        },
-        {
-            id: 11,
-            question: "Wie viele Standorte hat das Parlament der Europäischen Union?",
-            options: ["Zwei", "Drei", "Vier"],
-            answer: "Drei"
-        },
-        {
-            id: 12,
-            question: "Welche zwei Städte sind neben Brüssel Hauptorte für Plenartagungen des Europäischen Parlaments?",
-            options: ["Straßburg und Luxemburg", "Straßburg und Genf", "Luxemburg und Lyon"],
-            answer: "Straßburg und Luxemburg"
-        },
-        {
-            id: 13,
-            question: "Wie viele Länder sind im Euro-Währungsgebiet?",
-            options: ["15 Länder", "19 Länder", "21 Länder"],
-            answer: "19 Länder"
-        },
-        {
-            id: 14,
-            question: "Würde die Europäische Union sich selbst aufnehmen?",
-            options: ["Ja", "Nein", "Vielleicht"],
-            answer: "Nein"
-        },
-        {   id: 15,
-            question: "Wie lautet das Motto der Europäischen Union?",
-            options: ["Einigkeit und Recht und Freiheit", "In Vielfalt geeint", "Freiheit, Gleichheit, Brüderlichkeit"],
-            answer: "In Vielfalt geeint"
-        },
-        {
-            id: 16,
-            question: "Welche Stadt ist Sitz der Europäischen Zentralbank?",
-            options: ["Berlin", "Frankfurt am Main", "München"],
-            answer: "Frankfurt am Main"
-        },
-        {
-            id: 17,
-            question: "Welches ist das größte Land in der EU nach Fläche?",
-            options: ["Malta", "Irland", "Frankreich"],
-            answer: "Frankreich"
-        },
-        {
-            id: 18,
-            question: "Wie groß ist die Wirtschaft der Eurozone im Vergleich zu den USA?",
-            options: ["Etwa gleich groß", "Circa halb so groß", "Doppelt so groß"],
-            answer: "Circa halb so groß"
-        }
-    ]
+    {
+        id: 1,
+        question: "Wie viele Bundesländer hat Deutschland?",
+        options: ["12 Bundesländer", "16 Bundesländer", "20 Bundesländer", "18 Bundesländer"],
+        answer: "16 Bundesländer"
+    },
+    {
+        id: 2,
+        question: "Wer wird bei der Bundestagswahl direkt gewählt?",
+        options: ["Der Bundeskanzler", "Die Bundestagsabgeordneten", "Die Bundesminister", "Der Bundespräsident"],
+        answer: "Die Bundestagsabgeordneten"
+    },
+    {
+        id: 3,
+        question: "Wie oft findet die Bundestagswahl statt?",
+        options: ["Alle vier Jahre", "Alle fünf Jahre", "Alle sechs Jahre", "Alle drei Jahre"],
+        answer: "Alle vier Jahre"
+    },
+    {
+        id: 4,
+        question: "Welches Wahlsystem wird bei der Bundestagswahl verwendet?",
+        options: ["Mehrheitswahl", "Verhältniswahl", "Personalisierte Verhältniswahl", "Direktwahl"],
+        answer: "Personalisierte Verhältniswahl"
+    },
+    {
+        id: 5,
+        question: "Wie viele Stimmen hat ein Wähler bei der Bundestagswahl?",
+        options: ["Eine Stimme", "Zwei Stimmen", "Drei Stimmen", "Vier Stimmen"],
+        answer: "Zwei Stimmen"
+    },
+    {
+        id: 6,
+        question: "Welche Mindestanzahl an Sitzen hat der Deutsche Bundestag?",
+        options: ["500 Sitze", "598 Sitze", "700 Sitze", "650 Sitze"],
+        answer: "598 Sitze"
+    },
+    {
+        id: 7,
+        question: "Welches Amt übernimmt der Bundespräsident bei der Bundestagswahl?",
+        options: ["Wahlleiter", "Eröffnung des Bundestags", "Vereidigung des Bundeskanzlers", "Präsident des Wahlausschusses"],
+        answer: "Vereidigung des Bundeskanzlers"
+    },
+    {
+        id: 8,
+        question: "Welche Partei wird oft als 'Liberale Partei' bezeichnet?",
+        options: ["CDU", "SPD", "FDP", "Bündnis 90/Die Grünen"],
+        answer: "FDP"
+    },
+    {
+        id: 9,
+        question: "Wer schlägt den Bundeskanzler zur Wahl vor?",
+        options: ["Der Bundespräsident", "Die Mehrheit der Bundestagsabgeordneten", "Der Bundesrat", "Die stärkste Partei im Bundestag"],
+        answer: "Der Bundespräsident"
+    },
+    {
+        id: 10,
+        question: "Welches Ministerium ist für die Bundestagswahl zuständig?",
+        options: ["Innenministerium", "Justizministerium", "Finanzministerium", "Verkehrsministerium"],
+        answer: "Innenministerium"
+    },
+    {
+        id: 11,
+        question: "Welches Gebäude ist Sitz des Deutschen Bundestages?",
+        options: ["Reichstag", "Bundeskanzleramt", "Schloss Bellevue", "Humboldt Forum"],
+        answer: "Reichstag"
+    },
+    {
+        id: 12,
+        question: "Wer bildet die Bundesregierung nach der Bundestagswahl?",
+        options: [
+            "Der Bundespräsident und der Bundesrat",
+            "Der Bundeskanzler und die Bundesminister",
+            "Der Bundestagspräsident und die Landesminister",
+            "Der Bundestag und der Bundespräsident"
+        ],
+        answer: "Der Bundeskanzler und die Bundesminister"
+    },
+    {
+        id: 13,
+        question: "Wie viele Wahlkreise gibt es in Deutschland für die Bundestagswahl?",
+        options: ["299", "350", "400", "250"],
+        answer: "299"
+    },
+    {
+        id: 14,
+        question: "Welcher Teil des Wahlsystems bestimmt die Anzahl der Sitze im Bundestag für eine Partei?",
+        options: ["Die Erststimme", "Die Zweitstimme", "Die Überhangmandate", "Die Wahlbeteiligung"],
+        answer: "Die Zweitstimme"
+    },
+    {
+        id: 15,
+        question: "Welches Gremium kontrolliert die Arbeit der Bundesregierung?",
+        options: ["Der Bundestag", "Der Bundesrat", "Der Verfassungsgerichtshof", "Der Bundespräsident"],
+        answer: "Der Bundestag"
+    },
+    {
+        id: 16,
+        question: "Welche Partei hat die Bundesrepublik Deutschland am längsten regiert?",
+        options: ["AfD", "FDP", "SPD", "PDS"],
+        answer: "FDP"
+    },
+    {
+        id: 17,
+        question: "Wie viele Stimmen müssen im Bundestag für ein konstruktives Misstrauensvotum zusammenkommen?",
+        options: [
+            "Die Mehrheit der anwesenden Abgeordneten",
+            "Die absolute Mehrheit der Abgeordneten",
+            "Zwei Drittel der Abgeordneten",
+            "Ein Viertel der Abgeordneten"
+        ],
+        answer: "Die absolute Mehrheit der Abgeordneten"
+    },
+    {
+        id: 18,
+        question: "Welches Dokument regelt die Bundestagswahl in Deutschland?",
+        options: ["Das Grundgesetz", "Das Wahlgesetz", "Die Geschäftsordnung des Bundestags", "Die Verfassung der Bundesrepublik"],
+        answer: "Das Grundgesetz"
+    },
+    {
+        id: 19,
+        question: "Welches Gremium repräsentiert die Bundesländer auf Bundesebene?",
+        options: ["Der Bundestag", "Der Bundesrat", "Der Bundespräsident", "Die Landesparlamente"],
+        answer: "Der Bundesrat"
+    },
+    {
+        id: 20,
+        question: "Wie wird der Bundestagspräsident gewählt?",
+        options: ["Vom Bundeskanzler", "Von den Abgeordneten des Bundestags", "Vom Bundespräsidenten", "Von den Ministerpräsidenten der Länder"],
+        answer: "Von den Abgeordneten des Bundestags"
+    },
+    {
+        id: 21,
+        question: "Welches Gesetz regelt die Verteilung der Sitze im Bundestag?",
+        options: ["Das Wahlgesetz", "Das Bundesgesetz über Mandatsvergabe", "Das Parteiengesetz", "Das Grundgesetz"],
+        answer: "Das Wahlgesetz"
+    },
+    {
+        id: 22,
+        question: "Was passiert, wenn keine Partei eine absolute Mehrheit erreicht?",
+        options: [
+            "Es gibt eine Neuwahl",
+            "Es werden Koalitionsverhandlungen geführt",
+            "Der Bundespräsident entscheidet die Regierung",
+            "Die stärkste Partei stellt automatisch den Kanzler"
+        ],
+        answer: "Es werden Koalitionsverhandlungen geführt"
+    }
+];

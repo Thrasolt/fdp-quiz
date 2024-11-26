@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "FDP Europa Quiz",
-  description: "Teste dein Wissen über die Europäische Union",
+  title: "FDP Wahl Quiz ",
+  description: "Teste dein Wissen zur Bundestagswahl 2025",
 };
 
 export default function RootLayout({ children }) {

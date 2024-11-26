@@ -7,7 +7,7 @@ export const Introduction = ({startQuiz}) => {
     return (
             <div className="flex-grow flex items-center justify-center bg-white p-4">
                 <div className="text-center p-4 bg-gray-100 rounded-lg shadow-xl">
-                    <div className="text-2xl font-bold mb-2 text-gray-900">Willkommen zum Europa-Quiz der FDP
+                    <div className="text-2xl font-bold mb-2 text-gray-900">Willkommen zum Wahl-Quiz der FDP
                         Grevenbroich!
                     </div>
                     <p className="text-lg text-gray-800 mb-4">Testen Sie Ihr Wissen mit unserem Quiz und gewinnen Sie

@@ -1,7 +1,7 @@
 export const mustQuestions = [
     {
         id: 23,
-        question: "Wer ist der Spitzenkandidatin der FDP zur Bundestagswahl?",
+        question: "Wer ist der Spitzenkandidat der FDP zur Bundestagswahl?",
         answer: "Christian Lindner",
         options: [
             "Christian Lindner", "Olaf Scholz", "Robert Habeck", "Sahra Wagenknecht"
@@ -12,7 +12,7 @@ export const mustQuestions = [
         question: "Welche Partei fordert die Senkung der Einkommensteuer?",
         answer: "FDP",
         options: [
-            "FDP", "SPD", "Bündnis 90. Die Grünen", "CDU"
+            "FDP", "SPD", "Bündnis 90/Die Grünen", "CDU"
         ]
     },
     {
@@ -20,7 +20,7 @@ export const mustQuestions = [
         question: "Welche Partei fordert die Senkung der Unternehmenssteuern?",
         answer: "FDP",
         options: [
-            "FDP", "SPD", "Bündnis 90. Die Grünen", "CDU"
+            "FDP", "SPD", "Bündnis 90/Die Grünen", "CDU"
         ]
     },
     {
@@ -28,7 +28,7 @@ export const mustQuestions = [
         question: "Welche Partei fordert die Abschaffung des Solidaritätszuschlags?",
         answer: "FDP",
         options: [
-            "FDP", "SPD", "Bündnis 90. Die Grünen", "CDU"
+            "FDP", "SPD", "Bündnis 90/Die Grünen", "CDU"
         ]
     },
     {
@@ -36,23 +36,23 @@ export const mustQuestions = [
         question: "Welche Partei fordert den Bürokratieabbau?",
         answer: "FDP",
         options: [
-            "FDP", "SPD", "Bündnis 90. Die Grünen", "CDU"
+            "FDP", "SPD", "Bündnis 90/Die Grünen", "CDU"
         ]
     },
     {
         id: 28,
-        question: "Wer ist der Spitzenkandidat der FDP zur Bundestagswahl?",
-        answer: "Christian Lindner",
+        question: "Wer ist eine der bekanntesten FDP-Politikerinnen in Deutschland?",
+        answer: "Dr. Marie-Agnes Strack-Zimmermann",
         options: [
-            "Christian Lindner", "Olaf Scholz", "Robert Habeck", "Sahra Wagenknecht"
+            "Dr. Marie-Agnes Strack-Zimmermann", "Nicola Beer", "Annalena Baerbock", "Ursula von der Leyen"
         ]
     },
     {
         id: 29,
-        question: "Wer ist eine der bekanntesten FDP Politikerin in Deutschland?",
-        answer: "Dr. Marie-Agnes Strack-Zimmermann",
+        question: "Welche Partei fordert die Wirtschfatswende?",
+        answer: "FDP",
         options: [
-            "Dr. Marie-Agnes Strack-Zimmermann", "Ursula Kwasny", "Annalena Baerbock", "Michelle Obama"
+            "FDP", "SPD", "Die Linke", "CSU"
         ]
-    }
+    },
 ];

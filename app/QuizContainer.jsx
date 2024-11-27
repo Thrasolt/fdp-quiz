@@ -13,6 +13,9 @@ export default function QuizContainer() {
     const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
     const [userAnswers, setUserAnswers] = useState([]);
 
+    const numberOfQuestions = 12;
+    const winningNumber = 6;
+
     const trackAnswer = (question, option, answeredCorrectly) => {
         setUserAnswers([...userAnswers, { question, option, answeredCorrectly }]);
     }
@@ -31,10 +34,20 @@ export default function QuizContainer() {
     }
 
     if (showResults) {
-        return <ResultReport correctAnswersCount={correctAnswersCount} answers={userAnswers}/>;
+        return <ResultReport
+            correctAnswersCount={correctAnswersCount}
+            answers={userAnswers}
+            numberOfQuestions={numberOfQuestions}
+            winningNumber={winningNumber}
+        />;
     }
 
     return (
-        <Quiz finishQuiz={finishQuiz} updateCorrectAnswers={setCorrectAnswersCount} trackAnswer={trackAnswer}/>
+        <Quiz
+            finishQuiz={finishQuiz}
+            updateCorrectAnswers={setCorrectAnswersCount}
+            trackAnswer={trackAnswer}
+            numberOfQuestions={numberOfQuestions}
+        />
     );
 }

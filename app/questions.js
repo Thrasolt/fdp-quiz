@@ -2,14 +2,14 @@ export const questions = [
     {
         id: 1,
         question: "Wie viele Bundesländer hat Deutschland?",
-        options: ["12 Bundesländer", "16 Bundesländer", "20 Bundesländer", "18 Bundesländer"],
-        answer: "16 Bundesländer"
+        options: ["12", "16", "20", "18"],
+        answer: "16"
     },
     {
         id: 2,
         question: "Wer wird bei der Bundestagswahl direkt gewählt?",
-        options: ["Der Bundeskanzler", "Die Bundestagsabgeordneten", "Die Bundesminister", "Der Bundespräsident"],
-        answer: "Die Bundestagsabgeordneten"
+        options: ["Der Bundeskanzler", "Die Bundestags- abgeordneten", "Die Bundesminister", "Der Bundespräsident"],
+        answer: "Die Bundestags- abgeordneten"
     },
     {
         id: 3,
@@ -50,7 +50,7 @@ export const questions = [
     {
         id: 9,
         question: "Wer schlägt den Bundeskanzler zur Wahl vor?",
-        options: ["Der Bundespräsident", "Die Mehrheit der Bundestagsabgeordneten", "Der Bundesrat", "Die stärkste Partei im Bundestag"],
+        options: ["Der Bundespräsident", "Die Mehrheit der Bundestags -abgeordneten", "Der Bundesrat", "Die stärkste Partei im Bundestag"],
         answer: "Der Bundespräsident"
     },
     {
@@ -91,7 +91,7 @@ export const questions = [
     {
         id: 15,
         question: "Welches Gremium kontrolliert die Arbeit der Bundesregierung?",
-        options: ["Der Bundestag", "Der Bundesrat", "Der Verfassungsgerichtshof", "Der Bundespräsident"],
+        options: ["Der Bundestag", "Der Bundesrat", "Das Verfassungsgericht", "Der Bundespräsident"],
         answer: "Der Bundestag"
     },
     {
@@ -140,10 +140,18 @@ export const questions = [
         question: "Was passiert, wenn keine Partei eine absolute Mehrheit erreicht?",
         options: [
             "Neuwahlen",
-            "Koalitionsverhandlungen",
+            "Koalitions- verhandlungen",
             "Bundespräsident wird Kanzler",
             "Stärkste Partei stellt den Kanzler"
         ],
-        answer: "Koalitionsverhandlungen"
-    }
+        answer: "Koalitions- verhandlungen"
+    },
+    {
+        id: 23,
+        question: "Welche Partei fordert die Senkung der Einkommensteuer?",
+        answer: "FDP",
+        options: [
+            "FDP", "SPD", "Bündnis 90/Die Grünen", "CDU"
+        ]
+    },
 ];

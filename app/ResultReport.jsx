@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import {ResultDetails} from "@/app/ResultDetails";
 
-export const ResultReport = ({ correctAnswersCount, answers }) => {
+export const ResultReport = ({ correctAnswersCount, answers, numberOfQuestions, winningNumber }) => {
     const [showDetails, setShowDetails] = useState(false);
 
     const toggleDetails = () => {
@@ -14,8 +14,8 @@ export const ResultReport = ({ correctAnswersCount, answers }) => {
         <div className="flex-grow flex items-center justify-center bg-white p-4">
             <div className="text-center p-4 bg-gray-200 rounded-lg shadow-xl">
                 <div className="text-2xl font-bold mb-2 text-gray-900">Quiz Beendet</div>
-                <div className="text-lg mb-3 text-gray-900">Sie haben 6 Fragen beantwortet und {correctAnswersCount} richtig.</div>
-                {correctAnswersCount >= 3 ? (
+                <div className="text-lg mb-3 text-gray-900">Sie haben {numberOfQuestions} Fragen beantwortet und {correctAnswersCount} richtig.</div>
+                {correctAnswersCount >= winningNumber ? (
                     <div>
                     <div className="text-green-600 font-bold">Glückwunsch! Sie haben das Quiz gewonnen! </div>
                     <div className="text-green-600 font-bold">Holen Sie Sich Ihr Los an unserem Infostand</div>

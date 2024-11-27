@@ -1,18 +1,10 @@
 export const mustQuestions = [
     {
-        id: 23,
+        id: 24,
         question: "Wer ist der Spitzenkandidat der FDP zur Bundestagswahl?",
         answer: "Christian Lindner",
         options: [
             "Christian Lindner", "Olaf Scholz", "Robert Habeck", "Sahra Wagenknecht"
-        ]
-    },
-    {
-        id: 24,
-        question: "Welche Partei fordert die Senkung der Einkommensteuer?",
-        answer: "FDP",
-        options: [
-            "FDP", "SPD", "Bündnis 90/Die Grünen", "CDU"
         ]
     },
     {
@@ -41,10 +33,18 @@ export const mustQuestions = [
     },
     {
         id: 28,
-        question: "Wer ist eine der bekanntesten FDP-Politikerinnen in Deutschland?",
-        answer: "Dr. Marie-Agnes Strack-Zimmermann",
+        question: "Wer ist der Grevenbroicher Bundestagskandidat der FDP?",
+        answer: "Bijan Djir-Sarai",
         options: [
-            "Dr. Marie-Agnes Strack-Zimmermann", "Nicola Beer", "Annalena Baerbock", "Ursula von der Leyen"
+            "Bijan Djir-Sarai", "Karsten Linnemann", "Michael Miersch", "Felix Banaszak"
+        ]
+    },
+    {
+        id: 28,
+        question: "Wer ist der Generalsekretär der FDP?",
+        answer: "Bijan Djir-Sarai",
+        options: [
+            "Bijan Djir-Sarai", "Michael Kellner", "Kevin Kühnert", "Franziska Brantner"
         ]
     },
     {

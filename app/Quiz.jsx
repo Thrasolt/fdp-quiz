@@ -13,9 +13,7 @@ function shuffleArray(array) {
     return array;
 }
 
-const numberOfQuestions = 12;
-
-export default function Quiz({ finishQuiz, updateCorrectAnswers, trackAnswer }) {
+export default function Quiz({ finishQuiz, updateCorrectAnswers, trackAnswer, numberOfQuestions }) {
     const [questions, setQuestions] = useState([]);
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
@@ -27,6 +25,9 @@ export default function Quiz({ finishQuiz, updateCorrectAnswers, trackAnswer }) 
         const shuffledQuestions = shuffleArray([...importedQuestions]);
         const selectedRegularQuestions = shuffledQuestions.slice(0, numberOfQuestions - mustQuestions.length);
         const combinedQuestions = [...mustQuestions, ...selectedRegularQuestions];
+
+        combinedQuestions.forEach(question => {shuffleArray(question.options)});
+
         setQuestions(shuffleArray(combinedQuestions));
     }, []);
 
@@ -45,7 +46,7 @@ export default function Quiz({ finishQuiz, updateCorrectAnswers, trackAnswer }) 
             trackAnswer(questions[currentQuestionIndex].question, option, true);
 
             setTimeout(() => {
-                if (questionsAnsweredCount + 1 === 6) {
+                if (questionsAnsweredCount + 1 === numberOfQuestions) {
                     finishQuiz(true);
                 } else {
                     setCurrentQuestionIndex((currentQuestionIndex + 1) % questions.length);
@@ -60,7 +61,7 @@ export default function Quiz({ finishQuiz, updateCorrectAnswers, trackAnswer }) 
                 setBlink({ color: 'green', key: correctKey });
 
                 setTimeout(() => {
-                    if (questionsAnsweredCount + 1 === 6) {
+                    if (questionsAnsweredCount + 1 === numberOfQuestions) {
                         finishQuiz(true);
                     } else {
                         setCurrentQuestionIndex((currentQuestionIndex + 1) % questions.length);

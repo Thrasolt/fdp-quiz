@@ -41,7 +41,7 @@ export const mustQuestions = [
     },
     {
         id: 28,
-        question: "Wer ist der Generalsekretär der FDP?",
+        question: "Wer ist der Grevenbroicher Bundestagsabgeordneter der FDP?",
         answer: "Bijan Djir-Sarai",
         options: [
             "Bijan Djir-Sarai", "Michael Kellner", "Kevin Kühnert", "Franziska Brantner"
@@ -49,7 +49,7 @@ export const mustQuestions = [
     },
     {
         id: 29,
-        question: "Welche Partei fordert die Wirtschfatswende?",
+        question: "Welche Partei fordert die Wirtschaftswende?",
         answer: "FDP",
         options: [
             "FDP", "SPD", "Die Linke", "CSU"

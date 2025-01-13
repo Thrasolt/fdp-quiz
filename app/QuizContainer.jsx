@@ -13,8 +13,8 @@ export default function QuizContainer() {
     const [correctAnswersCount, setCorrectAnswersCount] = useState(0);
     const [userAnswers, setUserAnswers] = useState([]);
 
-    const numberOfQuestions = 12;
-    const winningNumber = 6;
+    const numberOfQuestions = 8;
+    const winningNumber = 5;
 
     const trackAnswer = (question, option, answeredCorrectly) => {
         setUserAnswers([...userAnswers, { question, option, answeredCorrectly }]);

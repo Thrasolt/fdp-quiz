@@ -12,7 +12,7 @@ export const mustQuestions = [
         question: "Welche Partei fordert die Senkung der Unternehmenssteuern?",
         answer: "FDP",
         options: [
-            "FDP", "SPD", "Bündnis 90/Die Grünen", "CDU"
+            "FDP", "SPD", "Bündnis 90/Die Grünen", "Die Linke"
         ]
     },
     {
@@ -20,7 +20,7 @@ export const mustQuestions = [
         question: "Welche Partei fordert die Abschaffung des Solidaritätszuschlags?",
         answer: "FDP",
         options: [
-            "FDP", "SPD", "Bündnis 90/Die Grünen", "CDU"
+            "FDP", "SPD", "Bündnis 90/Die Grünen", "Die Linke"
         ]
     },
     {
@@ -28,7 +28,7 @@ export const mustQuestions = [
         question: "Welche Partei fordert den Bürokratieabbau?",
         answer: "FDP",
         options: [
-            "FDP", "SPD", "Bündnis 90/Die Grünen", "CDU"
+            "FDP", "SPD", "Bündnis 90/Die Grünen", "BSW"
         ]
     },
     {

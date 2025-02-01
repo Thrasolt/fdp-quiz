@@ -151,7 +151,7 @@ export const questions = [
         question: "Welche Partei fordert die Senkung der Einkommensteuer?",
         answer: "FDP",
         options: [
-            "FDP", "SPD", "Bündnis 90/Die Grünen", "CDU"
+            "FDP", "SPD", "Bündnis 90/Die Grünen", "BSW"
         ]
     },
 ];
